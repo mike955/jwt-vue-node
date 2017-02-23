@@ -1,0 +1,31 @@
+{
+  "name": "jwt-vue-node",
+  "version": "1.0.0",
+  "description": "A demo using vue2.0, jwt and node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-watch ./app.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zza00000/jwt-vue-node.git"
+  },
+  "author": "clx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zza00000/jwt-vue-node/issues"
+  },
+  "homepage": "https://github.com/zza00000/jwt-vue-node#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-watch": "^2.0.6",
+    "nodemon": "^1.11.0",
+  }
+}
